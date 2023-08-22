@@ -8,7 +8,9 @@ const port = 5000;
 app.get("/",(req,res)=>{
     res.send("Helo this is my first github repository!")
 });
-
+app.get("/home",(req,res)=>{
+    res.send("Helo this is my home route!")
+});
 
 app.listen (port, (err, data)=> {
     if (err){
