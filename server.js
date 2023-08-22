@@ -1,6 +1,6 @@
 const express = require ("express");
 const app = express ();
-const port = 5000;
+const port = 4000;
 
 
 
@@ -15,5 +15,5 @@ app.listen (port, (err, data)=> {
         console.log(err)
     }
     else {
-        console.log("http://localhost:5000/")}
+        console.log("http://localhost:4000/")}
     });
