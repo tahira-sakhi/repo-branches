@@ -1,0 +1,23 @@
+{
+  "name": "repo-branches",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tahira-sakhi/repo-branches.git"
+  },
+  "author": "tahi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tahira-sakhi/repo-branches/issues"
+  },
+  "homepage": "https://github.com/tahira-sakhi/repo-branches#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
